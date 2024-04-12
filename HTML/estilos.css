@@ -1,0 +1,126 @@
+ /* Reset de estilos */
+ h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    height: 100%;
+}
+body {
+    font-family: 'Lucida Sans', 'sans-serif';
+    line-height: 1.6;
+    background-image: url(imagen/img2.jpg);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color:#eda647 ;
+    padding-top: 20px;
+    min-height: 70px;
+    padding-bottom: 50px;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 25px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+section {
+    padding: 20px 0;
+}
+footer {
+    background: #333;
+    color: #ef8f19;
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    bottom: auto;
+    margin: 0;
+    margin-top: 53.3vh;
+}
+p {
+    margin-bottom: 20px; /* Esto añadirá un espacio de 20px en la parte inferior de cada párrafo */
+}
+#inicio{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: #fff;
+    width: 100%;
+    margin: 10vh 0vh 0vh 0vh;
+}
+#logoInicio{
+     width: 1000px;
+     margin-left: 400px;
+     margin-bottom: 0px;
+
+}
+.navegadorP{
+    padding: 5px 50px 5px 5px;
+}
+h1{
+    padding: 5px 5px 5px 5px ;
+}
+img{
+    padding: 5px 5px 5px 5px;
+}
+.pie{
+    height: 100%;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.seccion{
+    margin: 10px 10px;
+}
+.viaje_img{
+    display: block;
+    position: absolute;
+    margin-left: 850px;
+}
+#nosotros{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: #fff;
+    width: 100%;
+    margin: 10vh 0vh 0vh 0vh;
+}
+#servicios{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: #fff;
+    width: 100%;
+    margin: 10vh 0vh 0vh 0vh;
+}
+#contacto{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: #fff;
+    width: 100%;
+    margin: 10vh 0vh 0vh 0vh;
+}
